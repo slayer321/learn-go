@@ -42,7 +42,7 @@ func main() {
 		Name:          "sachin",
 		Username:      "slayer321",
 		Designation:   "Associate Product Engineer",
-		ContactNumber: "7666454860",
+		ContactNumber: "911",
 		MyProfilePic: ProfilePicture{
 			ImageName: "sachin_maurya.jpg",
 			ImagePath: "https://imugar.io/sachin_maurya.jpg",
@@ -71,7 +71,7 @@ func main() {
 		Name:          "chandu",
 		Username:      "robinhood",
 		Designation:   "Data scientist",
-		ContactNumber: "7666454860",
+		ContactNumber: "911",
 		MyProfilePic: ProfilePicture{
 			ImageName: "chandu.jpg",
 			ImagePath: "https://imugar.io/chandu.jpg",

@@ -32,7 +32,7 @@ func main() {
 		Name:          "sachin",
 		Username:      "slayer321",
 		Designation:   "Associate Product Engineer",
-		ContactNumber: "7666454860",
+		ContactNumber: "911",
 		MyProfilePic: ProfilePicture{
 			ImageName: "sachin_maurya.jpg",
 			ImagePath: "https://imugar.io",
