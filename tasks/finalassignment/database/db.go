@@ -76,3 +76,8 @@ func GetAllBooks(c *gin.Context) {
 
 	c.JSON(http.StatusOK, results)
 }
+
+func SetUpRouter() *gin.Engine {
+	router := gin.Default()
+	return router
+}

@@ -8,7 +8,7 @@ import (
 
 func glitchRemover(name string, c chan string) {
 	var out string
-	fmt.Printf("Coming : %s\n", name)
+	//fmt.Printf("Coming : %s\n", name)
 	for _, r := range name {
 
 		//fmt.Println(string(r))
@@ -17,36 +17,40 @@ func glitchRemover(name string, c chan string) {
 		}
 
 	}
-
 	c <- out
-	fmt.Printf("Finish %s\n", out)
-	//close(c)
+	//fmt.Printf("Finish %s\n", out)
+
 }
 
 func main() {
 
 	//val := "1cita2del3"
-
-	c := make(chan string, 3)
 	arr := []string{"gopher123", "alpha99beta", "1cita2del3"}
+	c := make(chan string, len(arr))
 
 	for _, val := range arr {
 
-		fmt.Printf("In goroutine: %s\n", val)
+		//fmt.Printf("In goroutine: %s\n", val)
 		go glitchRemover(val, c)
+
 	}
 
-	var res []string
+	// var res []string
 
-	val1 := <-c
-	val2 := <-c
-	val3 := <-c
+	// val1 := <-c
+	// val2 := <-c
+	// val3 := <-c
 
 	// for v := range c {
 	// 	res = append(res, v)
 	// }
-	res = append(res, val1, val2, val3)
+	// res = append(res, val1, val2, val3)
 
-	fmt.Println(res)
+	// fmt.Println(res)
+	//close(c)
+	for val := range c {
+		fmt.Println(val)
+
+	}
 
 }

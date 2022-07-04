@@ -1,0 +1,8 @@
+mode: atomic
+github.com/slayer321/learn-go/tp/learn-test/testfunc/handlers/main.go:10.60,14.16 2 1
+github.com/slayer321/learn-go/tp/learn-test/testfunc/handlers/main.go:19.2,20.16 2 1
+github.com/slayer321/learn-go/tp/learn-test/testfunc/handlers/main.go:25.2,25.22 1 1
+github.com/slayer321/learn-go/tp/learn-test/testfunc/handlers/main.go:14.16,17.3 2 0
+github.com/slayer321/learn-go/tp/learn-test/testfunc/handlers/main.go:20.16,23.3 2 0
+github.com/slayer321/learn-go/tp/learn-test/testfunc/handlers/main.go:28.13,32.16 3 0
+github.com/slayer321/learn-go/tp/learn-test/testfunc/handlers/main.go:32.16,34.3 1 0
