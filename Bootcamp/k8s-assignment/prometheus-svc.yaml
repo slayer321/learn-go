@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: prometheus
+  labels:
+    app: prom
+spec:
+  ports:
+  - port: 9090
+    name: prom-service
+  selector:
+    app: prom
