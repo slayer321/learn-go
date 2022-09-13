@@ -18,7 +18,7 @@ spec:
         app: argcdtestdeploy
     spec:
       containers:
-      - image: nginx
+      - image: nginx:1.23.1
         name: nginx
         resources: {}
 status: {}
